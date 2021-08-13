@@ -1,6 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <van-button>lxxx</van-button>
+  <van-button>lxh</van-button>
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}">
       <view class="userinfo-avatar" bindtap="bindViewTap">

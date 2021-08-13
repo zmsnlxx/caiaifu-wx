@@ -4,13 +4,8 @@
     "ignore": []
   },
   "setting": {
-    "packNpmManually": true,
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./miniprogram/"
-      }
-    ],
+    "packNpmManually": false,
+    "packNpmRelationList": [],
     "urlCheck": false,
     "es6": true,
     "enhance": false,
@@ -42,8 +37,6 @@
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
